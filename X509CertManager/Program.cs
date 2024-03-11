@@ -9,7 +9,7 @@ while (menuItem.Id > -1)
 {
 		AnsiConsole.Clear();
 		AnsiConsole.Write(
-				new Panel(new Text("X509 Self-Certificate Maintenance Application").Centered())
+				new Panel(new Text("X-509 Certificate Maintenance Utility Tool").Centered())
 				.Expand()
 				.SquareBorder()
 				.BorderStyle(new Style(Color.Cornsilk1))
