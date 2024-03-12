@@ -103,7 +103,7 @@ namespace X509CertManager.Operations
 												store.Remove(certificate);
 										}
 
-										AnsiConsole.MarkupLine("Deleted Successfully. Press [b]ENTER[/] to return to menu");
+										AnsiConsole.MarkupLine("Deleted. Press [b]ENTER[/] to return to menu");
 								}
 								else
 								{
